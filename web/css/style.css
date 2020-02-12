@@ -1,0 +1,112 @@
+img {
+    height: 28px;
+    width: 28px;
+}
+
+header {
+    background: none repeat scroll 0 0 #A6C9E2;
+    color: #2E6E9E;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+footer {
+    background: none repeat scroll 0 0 #A6C9E2;
+    color: #2E6E9E;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 20px 0;
+}
+
+body{
+    margin: 3mm 0 0 3mm;
+}
+
+p {
+    margin: 5px 0 0 0;
+}
+
+ul {
+    margin: 5px 0 5px;
+}
+
+dl {
+    margin: 5px 0;
+}
+
+dt {
+    display: inline-block;
+    width: 50px;
+    white-space: nowrap;
+}
+
+dd {
+    display: inline-block;
+    margin: 3px 0 3px 120px;
+}
+
+h2 {
+    margin: 10px 0 20px;
+}
+
+h3, h4 {
+    margin: 20px 0 5px;
+}
+
+.red {
+    color: #ff0000;
+    font-style: oblique;
+}
+
+.inputLine{
+    width: 84mm;
+}
+
+.inputDateLine {
+    width: 16mm;
+}
+
+.inputPosition {
+    width: 13cm;
+}
+
+textarea {
+    height: 4cm;
+    width: 13cm;
+}
+
+a[href^="skype:"] {
+    padding-left: 25px !important;
+    background: url(../img/skype.png) no-repeat center left;
+    background-size: 15px 15px;
+}
+
+a[href^="mailto:"] {
+    padding-left: 25px !important;
+    background: url(../img/email.png) no-repeat center left;
+    background-size: 15px 15px;
+}
+
+a[href^="https://stackoverflow.com"] {
+    padding-left: 25px !important;
+    background: url(../img/so.png) no-repeat center left;
+    background-size: 15px 15px;
+}
+
+a[href^="https://www.linkedin.com"] {
+    padding-left: 25px !important;
+    background: url(../img/linkedin.png) no-repeat center left;
+    background-size: 15px 15px;
+}
+
+a[href^="https://github.com"] {
+    padding-left: 25px !important;
+    background: url(../img/github.png) no-repeat center left;
+    background-size: 15px 15px;
+}
+
+.icon{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
